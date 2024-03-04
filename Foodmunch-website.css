@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.food-munch-logo{
+    width: 40px;
+    height: 40px;
+}
+.navbar-nav{
+    font-weight: bold;
+    
+}
+.navbar{
+    background-color: transparent;
+}
+.bg-main{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+    
+}
+.head{
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 45px;
+}
+.para{
+    color: white;
+    font-family: roboto;
+    font-weight: 200;
+    font-size: 25px;
+}  
+.btn-1{
+    background-color: #d0b200;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 15px;
+    border-width: 0px;
+
+}
+.btn-2{
+    background-color: transparent;
+    color: #d0b200;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 15px;
+    border-width: 2px;
+    border-color: #d0b200;
+
+}
+.bg-sub{
+    background-color: lightblue;
+    height: 100vh;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*/
+.sub-bg{
+    background-color: white;
+   
+}
+.sub-head{
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+
+}
+.sub-para{
+    color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.sub-card{
+    background-color: rgb(216, 220, 221);
+    border-radius: 10px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+   
+
+}
+#mamaa{
+    position: sticky;
+    top: 0px;
+}
+.image{
+    width: 87px;
+  height: 90px;
+}
+.sub-para1{
+    font-family: roboto;
+    font-size: 25px;
+}
+.sub-span{
+    font-weight: bold;
+    color: black;
+}
+.pro-bg{
+    background-color: white;
+    background-size: cover;
+}
+.pro-head{
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.pro-img{
+    border-radius: 10px;
+}
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+  }
+  .anchor{
+    color: rgb(207, 102, 32);
+  }
+  .pro-card{
+    border-radius: 16px;
+  }
+
+  .healthy-bg{
+    background-color:  #f9fbfe;
+     
+ }
+ .head-h{
+     color: #183b56;
+   font-family: "Roboto";
+   font-size: 28px;
+   font-weight: 700;
+ }
+ .para-h{
+     color: #5a7184;
+     font-family: "Roboto";
+     font-size: 16px;
+ }
+ .btn-h{
+     color: white;
+     background-color: #d0b200;
+     width: 130px;
+     height: 45px;
+     border-width: 0;
+     border-radius: 8px;
+     margin-right: 10px;
+ }
+ .delivery-bg{
+     background-color:  #f9fbfe; 
+ }
+
+ .head-d{
+    color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.para-d{
+    color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.btn-d{
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.img-dd{
+    width: 60px;
+    height: 55px;
+}
+
+.thank-bg{
+    background-color: #d0b2001a;
+}
+.head-t{
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.para-t{
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.img-t{
+    width: 270px;
+    margin-bottom: 20px;
+}
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+  .thank-bg{
+    background-color: #d0b2001a;
+}
+.head-t{
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.para-t{
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.img-t{
+    width: 270px;
+    margin-bottom: 20px;
+}
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+  .head-f{
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.icon{
+    color: red;
+    font-size: 45px;
+    padding-left: 13px;
+    padding-top: 9px;
+}
+.icon:hover{
+    color: green;
+    font-size: 50px;
+    padding-left: 13px;
+    padding-top: 7px;
+}
+.icon1{
+    color: red;
+    font-size: 45px;
+    padding-left: 13px;
+    padding-top: 9px;
+    cursor: pointer;
+}
+.icon1:hover{
+    color: rgba(247, 12, 188, 0.479);
+    font-size: 45px;
+    padding-left: 13px;
+    padding-top: 7px;
+}
+.icon2{
+    color: red;
+    font-size: 45px;
+    padding-left: 13px;
+    padding-top: 9px;
+    cursor: pointer;
+}
+.icon2:hover{
+    color: black;
+    font-size: 45px;
+    padding-left: 13px;
+    padding-top: 7px;
+}
+.icon3{
+    color: red;
+    font-size: 50px;
+    padding-left: 13px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.icon3:hover{
+    color: rgb(40, 25, 179);
+    font-size: 50px;
+    padding-left: 13px;
+    padding-top: 7px;
+}
+.icon-card{
+    background-color: rgb(216, 216, 117);
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    margin: 2px;
+}
+.follow-pro-bg{
+    background-color: rgb(29, 13, 88);
+    margin-top: 20px;
+}
+.para-f{
+    color: rgb(145, 117, 146);
+    font-weight: bold;
+}
+.para1-f{
+    color: rgb(145, 117, 146);
+    font-family: roboto;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.food-munch-logoo{
+    width: 100px;
+    height: 140px;
+}
